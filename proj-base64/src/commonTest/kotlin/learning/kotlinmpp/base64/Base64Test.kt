@@ -5,6 +5,7 @@ import kotlin.test.*
 class Base64Test {
     @Test
     fun testEncodeToString() {
+        println("Base64 test common")
         checkEncodeToString("Kotlin is awesome", "S290bGluIGlzIGF3ZXNvbWU=")
     }
 
